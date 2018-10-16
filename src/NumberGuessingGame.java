@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	String num = JOptionPane.showInputDialog("Guess a number from 0 to 2.");
 	Random rayray = new Random();
 	int num2 = rayray.nextInt (3);
-	if() {
+	if()) {
 	JOptionPane.showMessageDialog(null, "You Guessed Correctly!!!");
 	}
 	else {
