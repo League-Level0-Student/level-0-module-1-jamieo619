@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	String coin = JOptionPane.showInputDialog("What has a head and a tail, but no body?");
 	if(coin.equals("coin")) {
 		JOptionPane.showMessageDialog(null,"CORRECT!!!");
-	score = score+1;
+	score = score+100;
 	JOptionPane.showMessageDialog(null, "Score: "+ score);
 	}
 	else {
@@ -18,7 +18,7 @@ public static void main(String[] args) {
 	String mushroom = JOptionPane.showInputDialog("What kind of room has no doors or windows?");
 	if(mushroom.equals("mushroom")) {
 		JOptionPane.showMessageDialog(null,"CORRECT!!!");
-		score = score+1;
+		score = score+100;
 		JOptionPane.showMessageDialog(null, "Score: " + score);
 	}
 	else {
